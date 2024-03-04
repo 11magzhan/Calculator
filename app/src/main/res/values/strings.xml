@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Calculator</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="frame_layout">Frame Layout</string>
+    <string name="linear_layout">Linear Layout</string>
+    <string name="constraint_layout">Constraint Layout</string>
 </resources>
