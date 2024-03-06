@@ -1,13 +1,174 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginTop="200dp"
+    android:orientation="vertical"
     tools:context=".LinearLayoutFragment">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
 
-</FrameLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:textSize="25sp"
+        tools:text="input" />
+
+    <LinearLayout
+        android:id="@+id/column1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15dp"
+            android:background="@null"
+            android:backgroundTint="@color/white"
+            android:text="7"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="@color/white"
+            android:text="8"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:background="@null"
+            android:backgroundTint="@color/white"
+            android:text="9"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:background="@null"
+            android:backgroundTint="@color/white"
+            android:text="+"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/column2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15dp"
+            android:background="@null"
+            android:backgroundTint="@color/white"
+            android:text="4"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="@color/white"
+            android:text="5"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:background="@null"
+            android:backgroundTint="@color/white"
+            android:text="6"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:background="@null"
+            android:backgroundTint="@color/white"
+            android:text="-"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/column3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15dp"
+            android:background="@null"
+            android:backgroundTint="@color/white"
+            android:text="1"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="@color/white"
+            android:text="2"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:background="@null"
+            android:backgroundTint="@color/white"
+            android:text="3"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:background="@null"
+            android:backgroundTint="@color/white"
+            android:text="="
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

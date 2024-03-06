@@ -5,27 +5,10 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/btn_frame"
-        android:text="@string/frame_layout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_vertical|center_horizontal"/>
-
-    <Button
-        android:id="@+id/btn_linear"
-        android:text="@string/linear_layout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_vertical|center_horizontal"
-        android:layout_marginTop="40dp"/>
-
-    <Button
-        android:id="@+id/btn_constraint"
-        android:text="@string/constraint_layout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_vertical|center_horizontal"
-        android:layout_marginTop="80dp"/>
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment_container"
+        android:name="com.example.calculator.NavigateFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
 </FrameLayout>
